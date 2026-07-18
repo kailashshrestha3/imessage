@@ -6,6 +6,7 @@ import "dotenv/config"
 
 import fs from "fs"
 import path from "path"
+import job from "./lib/cron.js"
 
 import { connectDB } from "./lib/db.js"
 
